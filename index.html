@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Gut Reset After 50 — Pre-Order</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--p:#1a2244;--a:#f7e020;--n:#f0d6e0;--cta:#0174C7;--cta2:#015fa8;--green:#189850;--green2:#127a3e;--red:#D0021B;--white:#fff;--gray:#F6F6F6;--border:#ddd;--txt:#333;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Raleway',sans-serif;font-weight:400;color:var(--txt);background:#fff}img{max-width:100%;height:auto;display:block}a{text-decoration:none;color:inherit}
+body{background:#fff}
+
+/* ── S1: TOP BAR ── */
+.topbar{background:var(--a);padding:10px 16px;text-align:center}
+.topbar p{font-family:'Oswald',sans-serif;font-size:32px;line-height:38px;font-weight:600;color:var(--p);letter-spacing:.3px}
+
+/* ── S2: HERO — white bg, cover LEFT, text RIGHT ── */
+.hero{background:#fff;padding:60px 40px}
+.hero-inner{max-width:960px;margin:0 auto;display:flex;gap:64px;align-items:center}
+.hero-cover{flex:0 0 420px;text-align:center}
+.hero-cover img.book{width:420px;max-width:100%;filter:drop-shadow(0 10px 30px rgba(0,0,0,.25))}
+.hero-cover img.secure{margin:18px auto 0;max-width:220px}
+.hero-text{flex:1;min-width:260px}
+.hero-title{font-family:'Oswald',sans-serif;font-size:50px;line-height:55px;font-weight:700;color:var(--a);text-transform:uppercase;margin-bottom:10px}
+.hero-sub{font-family:'Oswald',sans-serif;font-size:26px;line-height:32px;font-weight:300;color:#333;margin-bottom:12px}
+.hero-award{font-family:'Raleway',sans-serif;font-size:13px;font-weight:600;color:#666;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+.hero-author{font-family:'Raleway',sans-serif;font-size:26px;line-height:32px;font-weight:700;color:#222;margin-bottom:24px}
+.btn-cta{display:block;background:var(--cta);color:#fff;font-family:'Oswald',sans-serif;font-size:20px;font-weight:500;text-transform:uppercase;text-align:center;padding:16px 28px;border-radius:4px;border:none;cursor:pointer;transition:background .2s;line-height:1.4}
+.btn-cta:hover{background:var(--cta2)}
+.btn-cta small{display:block;font-family:'Raleway',sans-serif;font-size:12px;font-weight:400;text-transform:none;letter-spacing:0;margin-top:4px;opacity:.9}
+.hero-note{font-family:'Raleway',sans-serif;font-size:13px;color:#888;margin-top:12px;text-align:center}
+.trust-row{display:flex;gap:20px;margin-top:20px;align-items:center;flex-wrap:nowrap}
+.trust-item{display:inline-flex;flex-direction:row;align-items:center;gap:6px;font-family:'Raleway',sans-serif;font-size:12px;color:#666;white-space:nowrap}
+.trust-icon{font-size:16px;line-height:1;display:inline}
+
+/* ── S3: ABOUT THE BOOK — white bg, cover LEFT, text RIGHT ── */
+.about-section{background:#fff;padding:60px 40px}
+.about-inner{max-width:960px;margin:0 auto;display:flex;gap:64px;align-items:center}
+.about-cover{flex:0 0 420px}
+.about-cover img{width:420px;max-width:100%;filter:drop-shadow(0 8px 24px rgba(0,0,0,.2))}
+.about-text{flex:1;min-width:240px}
+.about-title{font-family:'Oswald',sans-serif;font-size:clamp(28px,4vw,55px);line-height:1.1;font-weight:700;color:var(--a);text-transform:uppercase;margin-bottom:8px}
+.about-sub{font-family:'Oswald',sans-serif;font-size:clamp(20px,2.8vw,36px);line-height:1.25;font-weight:300;color:#333;margin-bottom:10px}
+.foreword{font-family:'Raleway',sans-serif;font-size:14px;color:#555;font-style:italic;margin-bottom:18px;line-height:1.6}
+.foreword strong{font-style:normal;font-weight:700;display:block;color:#333;font-size:15px}
+.about-body{font-family:'Raleway',sans-serif;font-size:18px;line-height:23px;color:#444;margin-bottom:16px}
+
+/* ── S4: CTA BAND — dark primary bg ── */
+.cta-band{background:var(--p);padding:40px 20px;text-align:center}
+.cta-band h2{font-family:'Oswald',sans-serif;font-size:40px;line-height:45px;font-weight:400;color:#fff;text-transform:uppercase;margin-bottom:6px}
+.cta-band p{font-family:'Raleway',sans-serif;font-size:16px;color:var(--a);font-weight:600;margin-bottom:22px}
+.btn-cta-inline{display:inline-block;background:var(--cta);color:#fff;font-family:'Oswald',sans-serif;font-size:20px;font-weight:500;text-transform:uppercase;padding:16px 44px;border-radius:4px;transition:background .2s;text-align:center;line-height:1.4}
+.btn-cta-inline:hover{background:var(--cta2)}
+.btn-cta-inline small{display:block;font-family:'Raleway',sans-serif;font-size:12px;font-weight:400;text-transform:none;margin-top:4px;opacity:.9}
+
+/* ── S5: ABOUT THE AUTHOR — neutral bg ── */
+.author-section{background:var(--n);padding:60px 40px}
+.author-inner{max-width:960px;margin:0 auto}
+.author-inner>h2{font-family:'Oswald',sans-serif;font-size:40px;line-height:45px;font-weight:400;color:#333;text-transform:uppercase;text-align:center;margin-bottom:4px}
+.author-inner>h3{font-family:'Oswald',sans-serif;font-size:28px;line-height:34px;font-weight:600;color:var(--p);text-align:center;margin-bottom:32px}
+.author-cols{display:flex;gap:64px;align-items:flex-start}
+.author-photo{flex:0 0 400px;text-align:center}
+.author-photo .placeholder{width:400px;max-width:100%;aspect-ratio:3/4;background:linear-gradient(145deg,var(--p),color-mix(in srgb,var(--p) 70%,#000));display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-size:80px;color:var(--a);margin:0 auto 14px;border-radius:4px}
+.author-connect{font-family:'Raleway',sans-serif;font-size:13px;color:#666;margin-bottom:10px}
+.social-row{display:flex;gap:10px;justify-content:center;margin-top:10px}
+.social-icon{width:40px;height:40px;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0}
+.author-bio{flex:1;min-width:220px}
+.author-bio p{font-family:'Raleway',sans-serif;font-size:18px;line-height:23px;color:#444;margin-bottom:16px}
+
+/* ── S6: TESTIMONIALS — dark primary bg, 3 cards ── */
+.testi-section{background:var(--p);padding:60px 20px}
+.testi-inner{max-width:900px;margin:0 auto;text-align:center}
+.testi-inner h2{font-family:'Oswald',sans-serif;font-size:40px;line-height:45px;color:#fff;text-transform:uppercase;margin-bottom:6px}
+.testi-inner .sub{font-family:'Raleway',sans-serif;font-size:16px;color:var(--a);font-weight:600;margin-bottom:28px}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.testi-card{background:rgba(255,255,255,.09);border-radius:6px;padding:22px;text-align:left}
+.testi-card p{font-family:'Raleway',sans-serif;font-size:14px;line-height:1.75;color:rgba(255,255,255,.85);font-style:italic;margin-bottom:14px}
+.testi-card .tname{font-family:'Oswald',sans-serif;font-size:15px;color:var(--a);font-style:normal;font-weight:500}
+.testi-card .tco{font-family:'Raleway',sans-serif;font-size:12px;color:rgba(255,255,255,.45)}
+
+/* ── S7: BOTTOM CTA — white bg, dashed border box ── */
+.bottom-cta{background:#fff;padding:60px 40px;text-align:center}
+.bottom-cta h2{font-family:'Oswald',sans-serif;font-size:40px;line-height:45px;font-weight:400;color:var(--p);text-transform:uppercase;margin-bottom:6px}
+.bottom-cta .sub{font-family:'Raleway',sans-serif;font-size:16px;color:#555;margin-bottom:24px}
+.cta-box{max-width:780px;margin:0 auto;border:3px dashed var(--p);border-radius:6px;padding:40px 60px;background:#fff}
+.cta-box .inner-label{font-family:'Raleway',sans-serif;font-size:13px;color:var(--p);font-weight:600;margin-bottom:20px;text-transform:uppercase;letter-spacing:.5px}
+.countdown{display:flex;justify-content:center;gap:10px;margin-bottom:20px;flex-wrap:wrap;align-items:flex-start}
+.cd-unit{text-align:center}
+.cd-num{font-family:'Oswald',sans-serif;font-size:48px;font-weight:700;color:var(--red);line-height:1}
+.cd-lbl{font-family:'Raleway',sans-serif;font-size:10px;color:#888;text-transform:uppercase;letter-spacing:1px}
+.cd-sep{font-family:'Oswald',sans-serif;font-size:40px;color:var(--red);line-height:1.1}
+.cta-box img{max-width:180px;margin:0 auto 16px;filter:drop-shadow(0 6px 16px rgba(0,0,0,.2))}
+.price-h1{font-family:'Oswald',sans-serif;font-size:55px;line-height:60px;font-weight:700;color:var(--p);margin-bottom:4px}
+.price-note{font-family:'Raleway',sans-serif;font-size:12px;color:#888;margin-bottom:16px}
+.cta-tagline{font-family:'Oswald',sans-serif;font-size:40px;line-height:45px;color:var(--p);margin-top:18px;font-weight:400}
+
+@media(max-width:780px){
+  .hero-inner,.about-inner,.author-cols{flex-direction:column;gap:32px}
+  .hero-cover,.about-cover{flex:unset;width:100%}
+  .hero-cover img.book,.about-cover img{width:100%;max-width:420px;margin:0 auto}
+  .trust-row{flex-wrap:wrap}
+  .author-photo{flex:unset;width:100%}
+  .author-photo .placeholder{width:100%;max-width:400px;margin:0 auto 14px}
+  .testi-grid{grid-template-columns:1fr}
+  .cta-box{padding:32px 24px}
+  .bottom-cta{padding:40px 20px}
+}
+</style>
+</head>
+<body>
+
+<!-- S1: TOP BAR -->
+<div class="topbar"><p>Pre-Order Today And Get A Signed Copy Of The Book!</p></div>
+
+<!-- S2: HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-cover">
+      <img src="cover.png" alt="The Gut Reset After 50" class="book">
+      <img src="secure-order.png" alt="Secure Order" class="secure">
+    </div>
+    <div class="hero-text">
+      <h1 class="hero-title">The Gut Reset After 50</h1>
+      <p class="hero-sub">Restore Your Digestion Boost Your Energy Feel Your Best Again</p>
+      <p class="hero-award">Award Winning Author</p>
+      <p class="hero-author">Victor J Gonzales III</p>
+      <a href="order.html" class="btn-cta">Pre-order Your Copy<small>And Get Your Limited Edition Author Signed Book</small></a>
+      <p class="hero-note">You will get a personally signed copy of the book ✍</p>
+      <div class="trust-row">
+        <div class="trust-item"><span class="trust-icon">🛡</span><span>Secure Checkout</span></div>
+        <div class="trust-item"><span class="trust-icon">⭐</span><span>Satisfaction Guaranteed</span></div>
+        <div class="trust-item"><span class="trust-icon">🔒</span><span>Privacy Protected</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S3: ABOUT THE BOOK -->
+<section class="about-section">
+  <div class="about-inner">
+    <div class="about-cover"><img src="cover.png" alt="The Gut Reset After 50"></div>
+    <div class="about-text">
+      <h2 class="about-title">The Gut Reset After 50</h2>
+      <p class="about-sub">Restore Your Digestion Boost Your Energy Feel Your Best Again</p>
+      <p class="foreword">Foreword by <strong>Raymond Aaron</strong>New York Times Bestselling Author</p>
+      <p class="about-body">This groundbreaking book takes you on an eye-opening journey through ideas that challenge everything you thought you knew. Drawing on years of research and real-world experience, the author presents a clear, actionable framework that readers from all backgrounds can immediately apply to their own lives. Whether you are a seasoned professional or just beginning your journey, the insights in these pages will fundamentally shift the way you think and act.</p>
+      <p class="about-body">Every chapter is packed with compelling stories, surprising data, and practical tools that make complex concepts feel approachable and exciting. You will discover why conventional wisdom so often leads us astray — and what the most successful people do differently. The author weaves together cutting-edge research with timeless principles to deliver a message that is both deeply inspiring and immediately useful.</p>
+      <p class="about-body">By the final page you will have a completely new perspective and a concrete plan for moving forward with confidence. The principles shared here have already transformed thousands of lives around the world, and now it is your turn. This is not just another book — it is a roadmap for lasting change. If you are ready to stop settling and start thriving, this is exactly the book you have been waiting for.</p>
+    </div>
+  </div>
+</section>
+
+<!-- S4: CTA BAND -->
+<div class="cta-band">
+  <h2>Ready To Reserve A Copy For Yourself</h2>
+  <p>Get The Limited Edition Author Signed Copy Today</p>
+  <a href="order.html" class="btn-cta-inline">Pre-order Your Copy<small>And Get Your Limited Edition Author Signed Book</small></a>
+</div>
+
+<!-- S5: ABOUT THE AUTHOR -->
+<section class="author-section">
+  <div class="author-inner">
+    <h2>About The Author</h2>
+    <h3>Victor J Gonzales III</h3>
+    <div class="author-cols">
+      <div class="author-photo">
+        <div class="placeholder">V</div>
+        <p class="author-connect">You Can Connect &amp; Engage On...</p>
+        <div class="social-row">
+          <a href="#" class="social-icon" style="background:#1877F2;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" width="22" height="22" style="filter:invert(1);" alt="Facebook"></a>
+          <a href="#" class="social-icon" style="background:#E1306C;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" width="22" height="22" style="filter:invert(1);" alt="Instagram"></a>
+          <a href="#" class="social-icon" style="background:#0A66C2;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" width="22" height="22" style="filter:invert(1);" alt="LinkedIn"></a>
+        </div>
+      </div>
+      <div class="author-bio">
+        <p>This groundbreaking book takes you on an eye-opening journey through ideas that challenge everything you thought you knew. Drawing on years of research and real-world experience, the author presents a clear, actionable framework that readers from all backgrounds can immediately apply to their own lives. Whether you are a seasoned professional or just beginning your journey, the insights in these pages will fundamentally shift the way you think and act.</p>
+        <p>Every chapter is packed with compelling stories, surprising data, and practical tools that make complex concepts feel approachable and exciting. You will discover why conventional wisdom so often leads us astray — and what the most successful people do differently. The author weaves together cutting-edge research with timeless principles to deliver a message that is both deeply inspiring and immediately useful.</p>
+        <p>By the final page you will have a completely new perspective and a concrete plan for moving forward with confidence. The principles shared here have already transformed thousands of lives around the world, and now it is your turn. This is not just another book — it is a roadmap for lasting change. If you are ready to stop settling and start thriving, this is exactly the book you have been waiting for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S6: TESTIMONIALS -->
+<section class="testi-section">
+  <div class="testi-inner">
+    <h2>Testimonials For The Book</h2>
+    <p class="sub">The Readers Love It!</p>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p>This groundbreaking book takes you on an eye-opening journey through ideas that challenge everything you thought you knew. Drawing on years of researc…</p>
+        <p class="tname">John</p><p class="tco">Company</p>
+      </div>
+      <div class="testi-card">
+        <p>Every chapter is packed with compelling stories, surprising data, and practical tools that make complex concepts feel approachable and exciting. You w…</p>
+        <p class="tname">John</p><p class="tco">Company</p>
+      </div>
+      <div class="testi-card">
+        <p>By the final page you will have a completely new perspective and a concrete plan for moving forward with confidence. The principles shared here have a…</p>
+        <p class="tname">John</p><p class="tco">Company</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S7: BOTTOM CTA / PRE-ORDER BOX -->
+<section class="bottom-cta">
+  <h2>Get Your Copy Today</h2>
+  <p class="sub">This Is Truly A Limited Offer, So Pre-Order Your Copy Of The Book</p>
+  <div class="cta-box">
+    <p class="inner-label">Let Me Show You Everything You Will Get When You Order Your Copy Of</p>
+    <div class="countdown">
+      <div class="cd-unit"><div class="cd-num cd-days">31</div><div class="cd-lbl">Days</div></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><div class="cd-num cd-hours">00</div><div class="cd-lbl">Hours</div></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><div class="cd-num cd-mins">15</div><div class="cd-lbl">Minutes</div></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><div class="cd-num cd-secs">34</div><div class="cd-lbl">Seconds</div></div>
+    </div>
+    <img src="cover.png" alt="The Gut Reset After 50">
+    <p class="price-h1">Pre-Launch Offer &nbsp;$ 19.99</p>
+    <p class="price-note">Shipping &amp; Handling Fees Will Be Free If You Pre-Order Before The Timer Runs Out!</p>
+    <a href="order.html" class="btn-cta-inline" style="display:block;">Pre-order Your Copy<small>And Get Your Limited Edition Author Signed Book</small></a>
+    <p class="cta-tagline">Pre-order Your Copy Today<br>And Get Your Own Signed Copy Of The Book</p>
+  </div>
+</section>
+
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f5f5;border-top:1px solid #ddd;">
+  <tr><td style="padding:30px 20px;text-align:center;font-family:'Raleway',sans-serif;font-size:12px;color:#888;line-height:1.9;">
+    <p>This is not part of Facebook website or Meta, Inc. This site is not endorsed by Facebook or Meta, Inc in anyway.</p>
+    <p>Results may not be typical or expected for every person. No results are guaranteed with the help of this book and systems described in the book. Individual results will vary according to effort, determination hard work and available budget.</p>
+    <p style="margin-top:6px;">Designed and Developed by <strong style="color:#333;">The Raymond Aaron Group</strong></p>
+    <p style="margin-top:10px;">
+      <a href="privacy.html" style="color:var(--cta);">Privacy Policy</a> |
+      <a href="terms.html" style="color:var(--cta);">Terms &amp; Conditions</a> |
+      <a href="mailto:contact@example.com" style="color:var(--cta);">Contact Author</a>
+    </p>
+  </td></tr>
+</table>
+<script>
+(function(){
+  function pad(n){return n<10?'0'+n:n}
+  var end=new Date();end.setDate(end.getDate()+31);
+  function tick(){
+    var now=new Date(),diff=end-now;
+    if(diff<=0){diff=0}
+    var d=Math.floor(diff/86400000),h=Math.floor((diff%86400000)/3600000),
+        m=Math.floor((diff%3600000)/60000),s=Math.floor((diff%60000)/1000);
+    document.querySelectorAll('.cd-days').forEach(function(el){el.textContent=pad(d)});
+    document.querySelectorAll('.cd-hours').forEach(function(el){el.textContent=pad(h)});
+    document.querySelectorAll('.cd-mins').forEach(function(el){el.textContent=pad(m)});
+    document.querySelectorAll('.cd-secs').forEach(function(el){el.textContent=pad(s)});
+  }
+  tick();setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>
